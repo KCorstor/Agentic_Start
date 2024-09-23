@@ -1,0 +1,1300 @@
+
+
+--- URL: https://api3.org ---
+
+ API3 | The Web3 API Economy
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate        Oracles that pay you   Recapture lost value for decentralized applications    Learn More Get Started            1     Read any data feed on the API3 Market         2     Enable OEV Network         3     Start Earning          
+Available on
+      Arbitrum One  
+ID: 42161       Astar zkEVM  
+ID: 3776       Avalanche  
+ID: 43114       Base  
+ID: 8453       Bitlayer  
+ID: 200901       Blast  
+ID: 81457       BOB  
+ID: 60808       BNB Smart Chain  
+ID: 56       Core  
+ID: 1116       Ethereum  
+ID: 1       Fantom  
+ID: 250       Fraxtal  
+ID: 252       Gnosis Chain  
+ID: 100       inEVM  
+ID: 2525       Kava  
+ID: 2222       Kroma  
+ID: 255       LightLink  
+ID: 1890       Linea  
+ID: 59144       Lukso  
+ID: 42       Lumia  
+ID: 994873017       Manta  
+ID: 169       Mantle  
+ID: 5000       Merlin  
+ID: 4200       Metal L2  
+ID: 1750       Metis  
+ID: 1088       Mode  
+ID: 34443       Moonbeam  
+ID: 1284       Moonriver  
+ID: 1285       Neon EVM  
+ID: 245022934       opBNB  
+ID: 204       Optimism  
+ID: 10       Polygon zkEVM  
+ID: 1101       Polygon  
+ID: 137       RARI Chain  
+ID: 1380012617       Scroll  
+ID: 534352       Sei  
+ID: 1329       Taiko  
+ID: 167000       X Layer  
+ID: 196       Zircuit  
+ID: 48900                How are dAPIs different?     API3’s data feeds, dAPIs, get their data directly from the source without relying on third-party middlemen. The dAPI aggregation contract resides on the same chain as the consumer dApp, meaning the data is never bridged over and exposed to bridge exploits. This maximizes the reliability and transparency of our feeds, resulting in safer DeFi for everyone.     Go to dAPI Docs               For Developers     Data services for developers who prioritize security, transparency and accuracy.     API3 builds solutions that bridge the gap between off-chain data and on-chain applications with maximal security and minimal latency. Below you can explore our currently available services.    Data feedsNative-chain aggregated price reference data feeds for a wide variety of assets across numerous networks including Polygon (PoS & zkEVM), Arbitrum, Optimism, Blast, and many more.Learn moreQRNGFree quantum mechanics-derived random number generator for smart contracts, powered by Australia National University Quantum Optics Group and Quintessence Labs.Learn moreWeb3 APIsA catalog of on-demand APIs made available to Web3 developers through the use of API3’s Airnode oracle technology.Learn more       API3 partners                  For Data Providers     Connect your data to decentralized applications.        Airnode is a simple, crypto-free Web3 API gateway that enables API providers to connect their data to decentralized applications running on various blockchains.Learn moreChainAPI is Airnode’s effortless, no-code, GUI-based integration tool that enables an API provider to self-deploy an Airnode in minutes.Go to ChainAPI       Join the API3 Alliance.   API3 Alliance is the largest association of API Providers on Web3. It was formed to promote the use of real-world data in decentralized applications.     View members and join             DAO     API3 is decentrally governed by its token holders.     As a DAO, the API3 project is governed programmatically through the use of an on-chain voting mechanism, powered by the API3 token.    DAO DashboardView and generate proposals, stake API3 and vote on proposals.Go to DAO DashboardDAO TrackerTrack DAO metrics like staking rewards, wallet and treasury balances and voting results.Go to DAO Tracker   DAO DocsLearn more about the API3 DAO, its structure and functions within the API3 project.Read DAO DocsDAO ForumDiscuss proposal topics before they go up to a vote in the DAO.Go to DAO Forum       Community channels     Ask questions, get answers, voice your ideas and get involved.     API3 DiscordJoin our Discord  API3 TelegramJoin our Telegram         Resources        API3 DocsRead DocsAPI3 GithubView on GithubAPI3 WhitepaperRead WhitepaperOEV LitepaperRead Litepaper            For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/ ---
+
+ API3 | The Web3 API Economy
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate        Oracles that pay you   Recapture lost value for decentralized applications    Learn More Get Started            1     Read any data feed on the API3 Market         2     Enable OEV Network         3     Start Earning          
+Available on
+      Arbitrum One  
+ID: 42161       Astar zkEVM  
+ID: 3776       Avalanche  
+ID: 43114       Base  
+ID: 8453       Bitlayer  
+ID: 200901       Blast  
+ID: 81457       BOB  
+ID: 60808       BNB Smart Chain  
+ID: 56       Core  
+ID: 1116       Ethereum  
+ID: 1       Fantom  
+ID: 250       Fraxtal  
+ID: 252       Gnosis Chain  
+ID: 100       inEVM  
+ID: 2525       Kava  
+ID: 2222       Kroma  
+ID: 255       LightLink  
+ID: 1890       Linea  
+ID: 59144       Lukso  
+ID: 42       Lumia  
+ID: 994873017       Manta  
+ID: 169       Mantle  
+ID: 5000       Merlin  
+ID: 4200       Metal L2  
+ID: 1750       Metis  
+ID: 1088       Mode  
+ID: 34443       Moonbeam  
+ID: 1284       Moonriver  
+ID: 1285       Neon EVM  
+ID: 245022934       opBNB  
+ID: 204       Optimism  
+ID: 10       Polygon zkEVM  
+ID: 1101       Polygon  
+ID: 137       RARI Chain  
+ID: 1380012617       Scroll  
+ID: 534352       Sei  
+ID: 1329       Taiko  
+ID: 167000       X Layer  
+ID: 196       Zircuit  
+ID: 48900                How are dAPIs different?     API3’s data feeds, dAPIs, get their data directly from the source without relying on third-party middlemen. The dAPI aggregation contract resides on the same chain as the consumer dApp, meaning the data is never bridged over and exposed to bridge exploits. This maximizes the reliability and transparency of our feeds, resulting in safer DeFi for everyone.     Go to dAPI Docs               For Developers     Data services for developers who prioritize security, transparency and accuracy.     API3 builds solutions that bridge the gap between off-chain data and on-chain applications with maximal security and minimal latency. Below you can explore our currently available services.    Data feedsNative-chain aggregated price reference data feeds for a wide variety of assets across numerous networks including Polygon (PoS & zkEVM), Arbitrum, Optimism, Blast, and many more.Learn moreQRNGFree quantum mechanics-derived random number generator for smart contracts, powered by Australia National University Quantum Optics Group and Quintessence Labs.Learn moreWeb3 APIsA catalog of on-demand APIs made available to Web3 developers through the use of API3’s Airnode oracle technology.Learn more       API3 partners                  For Data Providers     Connect your data to decentralized applications.        Airnode is a simple, crypto-free Web3 API gateway that enables API providers to connect their data to decentralized applications running on various blockchains.Learn moreChainAPI is Airnode’s effortless, no-code, GUI-based integration tool that enables an API provider to self-deploy an Airnode in minutes.Go to ChainAPI       Join the API3 Alliance.   API3 Alliance is the largest association of API Providers on Web3. It was formed to promote the use of real-world data in decentralized applications.     View members and join             DAO     API3 is decentrally governed by its token holders.     As a DAO, the API3 project is governed programmatically through the use of an on-chain voting mechanism, powered by the API3 token.    DAO DashboardView and generate proposals, stake API3 and vote on proposals.Go to DAO DashboardDAO TrackerTrack DAO metrics like staking rewards, wallet and treasury balances and voting results.Go to DAO Tracker   DAO DocsLearn more about the API3 DAO, its structure and functions within the API3 project.Read DAO DocsDAO ForumDiscuss proposal topics before they go up to a vote in the DAO.Go to DAO Forum       Community channels     Ask questions, get answers, voice your ideas and get involved.     API3 DiscordJoin our Discord  API3 TelegramJoin our Telegram         Resources        API3 DocsRead DocsAPI3 GithubView on GithubAPI3 WhitepaperRead WhitepaperOEV LitepaperRead Litepaper            For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/oev ---
+
+ API3 | OEV
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate      
+Stop bleeding value, start using API3
+   Recapture value that your lending protocol is needlessly leaking away. The OEV Network supercharges all API3 data feeds, allowing us to recapture and return value to you, while leaving you with more time to BUIDL. It’s as simple as reading any of our data feeds.     Powered by    Start Recapturing Value      
+The Problem.
+    Lending protocols are bleeding millions of dollars a year to oracle extractable value (OEV)            The Solution.   
+OEV Network is a Layer 2 solution powered by Arbitrum Orbit that creates an efficient market around oracle updates
+    
+As simple as reading any price feed on the API3 Market
+    
+Get paid for opportunities that arise on your dApp
+    
+It’s time to make your protocol more efficient and competitive with OEV Network
+            Let’s get technical    Visit Docs         
+FAQs
+ What is MEV & OEV?What is the OEV Network?Where is the value recaptured from?How much value is recaptured?What protocols and chains can use OEV Network?What can protocols do with the recaptured value?       
+Still have a question?
+ 
+Join our Discord and write in the #dev-support channel.
+   Join Discord             For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/data-feeds ---
+
+ API3 | dAPIs: Decentralized, Secure, Interoperable
+
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate       dAPIs     Power your dApp with the most secure data feeds in DeFi.   Go to API3 Market           dAPI Features     API3 data feeds (dAPIs) source their data directly from high-quality data providers, without security-reducing middlemen. dAPI updates are always aggregated on the native chain, meaning your dApp will never be vulnerable to bridge exploits.       Native-chain aggregated    Cross-chain bridges have historically posed an at best expensive and at worst existential risk to dApps that rely on them as a centralized point of failure.  API3’s dAPIs aggregate their data directly on the native chain, improving the security of your dApp, and eliminating the risk of getting caught in the next bridge hack.           First-party    Thanks to our provider-operated oracle node, Airnode, API3 data feeds are powered by data directly from some of the world’s most premier asset price data providers. Since dAPIs aggregate data without middleman node operators, the data sources used by dAPIs are always transparent.           Multi-platform    You can utilize dAPIs for your dApp on all of the most popular EVM-compatible networks, such as Ethereum, Polygon, Arbitrum, Avalanche, Optimism, BNB Chain and many others. API3 supports a multi-chain future, and we strive to grow the list of supported networks as new chains appear and gain popularity.           Simple to integrate    dAPIs provide a seamless low-code deployment for DeFi applications of all kinds. Through an integration that comes in around a single line of code, your smart contracts gain the ability to directly interface with secure, accurate and reliable real-time market data. Whether you're an experienced blockchain developer or just starting on your path into Web3, API3's dAPIs provide a secure and straightforward way to enhance your application's functionality and resilience.              Integrate a dAPI       Visit dAPI Docs to Get Started         Oracle Extractable Value     Get infinitely granular* oracle updates and recapture value normally lost to MEV.     Learn More   *OEV data feed updates do not rely on price deviation thresholds and are not limited by gas prices, making them as high-fidelity as the underlying data sources.           Can't find what you're looking for?     If you need a data feed for your dApp but can’t find it on the API3 Market, or are building on a currently unsupported network, please get in touch with us.    Request a Data Feed         Data Feed resources        API3 MarketBrowse API3 data feedsIntegration GuideLearn to integrate dAPIsdAPI DocsLearn about dAPIsAPI3 GitHubView on GitHub            For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/qrng ---
+
+ API3 | Quantum Random Numbers
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate  As of January 1, 2025, API3 will no longer be supporting the QRNG service.Learn more      Quantum Random Numbers 
+for Smart Contracts.
+ For free.     API3's QRNG provides your dApp with truly random numbers based on quantum mechanics at no charge. All you pay for is gas.    Get Started Now           Why Quantum Random Numbers?    Random number generators are typically pseudo-random. They can be biased or repeat at some point. This can introduce a security hole that can potentially be exploited. QRNG, on the other hand, is truly random and non-deterministic.             Quantum mechanics guarantee the numbers we provide are unbiased and maximally secure.               NFTs   Randomly distributing assets comes to life in an artistic format when developing generative NFTs – resulting in a collection of dynamic digital assets developed through the organically unpredictable quantum process, compared to the manufactured nature of computer algorithms.       Gaming   Metaverse, play-to-earn, and community-building games on the blockchain heavily rely on continuous random number generation to keep operations unpredictable and exciting for players.       Games of Chance   For games of chance, where financial incentives serve as a reward for correct wagers, players will only partake if they trust developers are utilizing a tamper-proof randomness generation to maintain fair odds.       Participatory Processes   Web3 applications that involve public participation, such as random token distribution or drawn winners, can leverage a random number generator to ensure a truly fair assignment process of high demand items without bias.         Where is it hosted?     API3 QRNG is hosted by Australia National University and Quintessence Labs on AWS. API3 QRNG numbers are:       Encrypted in transmission between provider, AWS, and Airnode     Never reused or served to multiple requests     Destroyed after they are served     Encrypted at rest on AWS servers     Learn About QRNG   HTML embed<a target="_blank" href="https://api3.org/qrng" rel="noopener
+noreferrer"><img width="600px" height="208px" src="https://api3.org/images/qrng/Black-Large.png">
+</a>Color variantSize600×208pxLMSCopy to clipboard Why is it free?Web3 has given so much to API3 and we want to give something back. All that we ask in return is that you acknowledge API3 in your app with a link back to this page. The images below can be included in your page by copy and pasting the HTML.       Still have questions?     Contact us on Discord or the API3 Forum              For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis ---
+
+ API3 | Find Web3 APIs
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate   Build connected smart contracts with world-class APIs.Powered by
+ Airnode's request-response protocol.Airnode is API3's data provider operated Web3 API gateway, which allows smart contracts to call off-chain APIs and receive data from them to the blockchain, without any third-party middlemen.Learn moreFeatured APIsCelitech Bee API
+Celitech wireless eSIM API enables your travel-related business to offer cellular data eSIMs and better engag...Learn moreCrypto API
+OptionRoom API allows users to create and participate in event derivatives that are pegged to real world outc...Learn moreQuadency Unified API
+Get market data such as live and historical prices, trades and order books, fetch your connected accounts and...Learn morePWP Leeway
+PWP Leeway API provides access to comprehensive data from more than 50 exchanges worldwide. We offer fundamen...Learn moreParadigm API
+Paradigm is a multidimensional crypto data API. Our unified platform provides single endpoint access to datas...Learn moreCatallact API
+The Catallact API delivers On-chain analytics, Exchange data, Derivative metrics, DeFi tracking, and Original...Learn moreBird API
+Bird.money offers plug and play analytics products for web 3.0 platforms.
+
+Learn moreAsteria API
+The Asteria Option Pricing API enables investors to get option pricing and quantity quotations and execute in...Learn moreMelodie API
+Melodie provides end users with music search, licensing, and more with a wide selection of high-quality, pre-...Learn moreAll APIsFilterAddress Verification API
+Byteplant's postal Address Verification service allows you to validate and correct postal addresses from 240 ...Learn moreINFRD Insurance API
+Artivatic’s AI- Native SaaS Solutions for insurance & health services as modular building blocks powered by b...Learn moreIdentity Authentication API
+Use the Authenticating APIs, mobile SDK or the hosted, embeddable UI for worldwide identity authentication, K...Learn moreThe Authoritas SERP API
+The Authoritas Keyword Ranking API allows you to make multiple simultaneous keyword requests to any major sea...Learn moreBenzinga Market News API
+The Benzinga API delivers actionable Stock & Crypto data news to users.
+
+Learn moreSMS Gateway API
+BulkSMS API allows you to easily SMS-enable your website, application, or customer relationship management pl...Learn moreShow More          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/airnode ---
+
+ API3 | Airnode: The Web3 API Gateway
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate      The Web3 API Gateway      Airnode is open source, crypto free Web3 middleware that connects any web API directly to any blockchain application.    Connect your API to Web3   Go to ChainAPI    ChainAPI is Airnode’s easy-to-use integration platform that enables any API provider to deploy and manage their Airnode on their own.          Airnode is the Web3 oracle solution for the API economy      Open source, serverless and provider-operable – Airnode is the first provider-focused oracle solution for connecting real-world data to blockchain applications.                 Airnode features & benefits                Effortless operation    Airnode is set-and-forget. Built entirely on high-availability serverless infrastructure, once deployed, Airnode requires zero maintenance.            Zero trust    Airnode connects your API to the blockchain directly, without any external dependencies in the form of third party oracle node operators.            Multi-chain    Airnode is compatible with most EVM-based blockchains, including Ethereum, Polygon PoS and zkEVM, Arbitrum, Avalanche, BNB Chain, Fantom and many more.            Zero cost    Airnode is open source and free to use under the MIT Licence. It also does not require you to handle cryptocurrencies, as the requester pays for the blockchain gas fees.             The future of the internet    is happening now. It’s called Web3. Airnode is how you connect.     Go to ChainAPI to deploy your Airnode    Go to ChainAPI         Resources        Airnode DocsVisit Airnode DocsChainAPIGo to ChainAPIChainAPI DocsVisit ChainAPI Docs            For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/api3-alliance ---
+
+ API3 | The Largest Association of API Providers on Web3
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate       The largest association of API providers on Web3     Web3 applications have been limited by their inability to access real world data and services. The API3 Alliance changes that.    Join the API3 Alliance           Join API3 Alliance   API3 Alliance members empower decentralized applications to directly call their Web APIs using API3's Airnode.   Apply Now         FAQ      Why join the API3 Alliance?What does it cost to join?Can I charge for my API?          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/dao ---
+
+ API3 | DAO: Decentralized Autonomous Organization
+
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate       Decentralized Autonomous Organization     API3's governance is entirely decentralized and open. As a token holder you can participate in the governance of the project directly.    Launch the DAO Dashboard           DAO Tracker    Track the latest votes, staking rewards, treasury balances and more from API3 DAO Tracker - an open source DAO tracker for the API3 community by the API3 community.   Launch the DAO Tracker      The Governance Token of the
+ API3 DAO    API3 is the native token of the API3 project. It gives its holders the right to take part in the governance of the API3 ecosystem through the API3 DAO.    Learn more         Coverage staking pool     API3 staking pool funds will, in the future, be used to cover any potential losses to a dAPI user in the event of a dAPI malfunction.       66 741 623  Coverage Pool (API3)    39.64%
+ Annual Rewards     Stake API3      DAO socials        DAO ForumDiscuss proposal topics before they go up to a vote in the DAORead DocsDAO DiscordTrack DAO metrics like staking rewards, wallet and treasury balances and voting results.Join our DiscordDAO TelegramLearn more about the API3 DAO, its structure and functions within the API3 project.Join our Telegram           For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/open-positions ---
+
+ API3 | Open Position       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate       Open positions     No open positions currently available. Please, check back later.            For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/contact ---
+
+ API3 | Contact       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Contact us           API3 Discord    Join our Discord        API3 Telegram    Join our Telegram           Contact support   Contact this email with support requests: [email protected]        General Email   Contact this email with general inquiries: [email protected]              For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/privacy-policy ---
+
+ API3 | Privacy Policy       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate    Privacy Policy   Last updated: February 24, 2021.     General information   The information in this section is relevant to all categories of data subject.  We use the information we collect to:   Staff and contractors   Website users   Suppliers and Potential suppliers   Clients and Potential clients      Who controls your personal data?   The API3 Foundation, a Cayman Islands foundation company (including our subsidiaries, affiliates, and as governed by the API3 Decentralized Autonomous Organization token holders, “API3”, “we”, “us” or “our”) is responsible for your personal data.  You can contact a representative by sending an email to the following address: [email protected]    Your Rights   You have the following rights:   The right to be informed You have the right to be informed about how API3 processes your personal data. Typically, API3 communicates this information through privacy notices such as this one.  The right of data access You have a right to obtain a copy of the personal data we hold about you, subject to certain exceptions.  The right of data rectification You always have a right to ask for immediate correction of inaccurate or incomplete personal data which we hold about you.  The right of data erasure You have the right to request that personal data be erased when it is no longer needed, where applicable law obliges us to delete the data or the processing of it is unlawful. You may also ask us to erase personal data where you have withdrawn your consent or objected to the data processing. However, this is not a general right to data erasure - there are exceptions.  The right to restrict data processing You have the right to restrict the processing of your personal data in specific circumstances. Where that is the case, we may still store your information, but not use it further.  The right to data portability You have the right to receive your personal data in a structured, machine-readable format for your own purposes, or to request us to share it with a third party.  The right to object to data processing You have the right to object to our processing of your personal data based on the legitimate interests, where your data privacy rights outweigh our reasoning for legitimate interests.  Rights in relation to automated decision making and profiling You have the right not to be subjected to a decision based solely on automated processing, including profiling, which produces legal or similarly significant effects. Currently, API3 does not perform any automated decision making or profiling.   You may request to enforce your data privacy rights by emailing [email protected]  In certain circumstances, we may need to restrict the above rights to safeguard the public interest (e.g., the prevention or detection of crime) or our business interests (e.g., the maintenance of legal privilege).    Consent as a legal basis for processing   For some data processing, API3 uses consent as a legal basis. If you have consented to processing by API3, please be aware that you have the right to withdraw this consent at any point. If you would like to withdraw consent for a particular type of data processing that API3 performs, please email the following address: [email protected]    Complaints to a Supervisory Authority   You have the right to lodge a complaint with a supervisory authority with regards to the way that API3 processes your personal data. API3 recommends lodging a complaint with the data protection authority officer/regulatory authority in the country in which you are a permanent resident.    How we share your data   We will not share your information with any third parties for the purposes of direct marketing.  In some circumstances we are legally obliged to share information. For example, under a court order. In any scenario, we will satisfy ourselves that we have a lawful basis on which to share the information and document our decision making and satisfy ourselves we have a legal basis on which to share the information.    How we protect your information   We implement appropriate technical and organisational measures to protect personal data that we hold from unauthorised disclosure, use, alteration, or destruction. Where appropriate, we use encryption and other technologies that assist in securing the data you provide. We also require our service providers to comply with strict data privacy requirements where they process your personal data.    How long we keep your personal data   We only keep your personal data for as long as necessary for the purposes described in this privacy notice, or until you notify us that you no longer wish us to process your data. After this time, we will securely delete your personal data, unless we are required to keep it to meet legal or regulatory obligations, or to resolve potential legal disputes.    Contact and further information   If you have any questions about how we use your personal data or wish to make a complaint about how we handle it, you may contact API3 at: [email protected]    Children Under 16   The Services are not directed to individuals who are under age of sixteen (16) and we do not solicit nor knowingly collect Personal Information from children under the age of sixteen (16). If you believe that we have unknowingly collected any Personal Information from someone under the age of sixteen (16), please contact us immediately at [email protected] and the information will be deleted.    Third Party Direct Marketing   We currently do not share personal data with third parties for their direct marketing purposes without your consent.    Members of staff and contractors with api3    Why we use your personal data?   We may use your personal data as listed above for the following purposes, to the extent applicable:   human resources management including organization and personal administration, working hours management, improving and maintaining effective staff administration, internal workforce analysis, reporting and planning staff succession planning;   staff succession planning;   compensation and benefits management and performance reviews;   talent management and acquisition including recruitment, assessing suitability and working capacity, background checks and verification of qualifications, obtaining and providing references;   learning and development management including certifications, training staff and performing assessments and employee satisfaction surveys;   processes related to joining and leaving including internal moves and terminations;   sickness and other leave and vacations management;   reporting and managing process quality;   travel and expenses management and organization of business trips;   carrying out the obligations and exercising specific rights in the field of employment or a collective agreement;   internal and external communication of API3’s organization and representation of API3 including commercial register and assigning powers of attorney;   organizing API3 events and documentation of such events including managing and organizing internal non-marketing related campaigns, events and meetings;   managing API3 assets including pictures and videos depicting employees or other individuals available for download on the API3 website, etc.;   finance and shared accounting services providing record to report, order to cash and purchase to pay services;   business reporting, statistics and analytics;   monitoring and auditing compliance of contractors’ and employees’ activities in the workplace with API3’s policies, contractual obligations and legal requirements including disciplinary actions;   carrying out audits, reviews and regulatory checks to meet obligations to regulators;   governance, risk and compliance, including compliance with laws, law enforcement, court and regulatory bodies’ requirements (such as for the process of verifying the identity of customers, called as Know Your Customer / Anti Money Laundering monitoring purposes), customs and global trade compliance, conflict of interest and security obligations) and prevention, detection, investigation and remediation of crime and fraud or prohibited activities or to otherwise protect legal rights and to establish, exercise or defend legal claims;   managing the customer relationship, processing customer orders and providing customer support, processing, evaluating and responding to requests and inquiries;   managing the suppliers, contractors, advisers and other professional experts including contact interaction, processing and fulfilling purchases and invoices, and contract lifecycle management;   making use of work performance and products and for references on documents, such as drawings, purchase orders, sales orders, invoices, reports;   maintaining and protecting the security of products, facilities, services, systems, networks, computers, and information, preventing, and detecting security threats, fraud or other criminal or malicious activities, and ensuring business continuity; and   managing IT resources, including infrastructure management including data back-up, information systems’ support and service operations for application management, end user support, testing, maintenance, security (incident response, risk, vulnerability, breach response), master data and workplace including user accounts management, software licenses assignment, security and performance testing and business continuity.    We collect only the personal data from you that we need for the purposes described above. Certain personal data collected from you relates to your next of kin and emergency contacts. In these cases, you are requested to inform such persons about this Notice.    What happens if you do not provide us with the information we have requested?   Where it concerns processing operations related to your relationship with API3 as a member, contractor or employee (as described above), API3 will not be able to adequately contract with or employ you without certain personal data and you may not be able to exercise your contractor or employee rights if you do not provide the personal data requested. Although we cannot mandate you to share your personal data with us, please note that this then may have consequences which could affect your contractual relationship or employment in a negative manner, such as not being able to exercise your statutory rights or even to continue your contract or employment. Whenever you are asked to provide us with any personal data related to you, we will indicate which personal data is required, and which personal data may be provided voluntarily.    The legal basis we rely on   For the use of your personal data for the purposes described above (in section 4), we rely on the following legal basis, as applicable:   We process your personal data for the fulfilment of obligations in your contractor or employment contract with us and similar collective contractor or employment agreements, or as part of pre-contractual measures to establish contractor-related or employment and related contracts   In some cases, we rely on our legitimate interests to process your personal data insofar as this is not overridden by your own privacy interests. Such interests may include:    monitoring (for example through IT systems), investigating and ensuring compliance with legal, regulatory, standard and API3 internal requirements and policies;  prevention of fraud and criminal activity including investigations of such activity, misuse of API3 assets, products, and services, and as strictly necessary and proportionate for ensuring network and information security;  transmitting personal data within the API3 group for internal administrative purposes as necessary, for example to provide centralised services.    You may obtain a copy of our assessment regarding our legitimate interest to process your personal data by submitting a request to [email protected]   In some cases, we process your personal data on the basis of statutory requirements, for example, on the basis of labour law, allowances, tax or reporting obligations, cooperation obligations with authorities or statutory retention periods in order to carry out our contractual responsibilities as a contracting entity or employer, as applicable;   In exceptional circumstances we may ask your consent at the time of collecting the personal data, for example photos, communications materials, and events. If we ask you for consent in order to use your personal data for a particular purpose, we will remind you that you are free to withdraw your consent at any time and we will tell you how you can do this.      Website users    Unsolicited Personal Information   If you send API3 unsolicited personal information, for example a CV, API3 reserves the right to immediately delete that information without informing you or to decide which category of data subject that you appear to be and manage your personal data within the remit of that category as described elsewhere in this Privacy Notice. We do not knowingly collect or solicit personal information from anyone under 18 years of age. If you are under 18, please do not send any personal information about yourself to us.  We collect only the personal data from you that we need for the purposes described above. Certain personal data collected from you relates to your next of kin and emergency contacts. In these cases, you are requested to inform such persons about this Notice.    Users of our website that do not fall under the specifically stated Data Subject Types   The personal data we collect about you and how we get it  We collect the following categories of personal data:    The legal basis we rely on   For the use of your personal data for the purposes described above (in section 4), we rely on the following legal basis, as applicable:   The business contact information you share with us: name, title, job title, email address, business address, telephone number, mobile telephone number, etc.   Information your browser makes available when you visit the API3 website: IP address, the source of your site visit, time spent on the website or a particular page, links clicked, comments shared, browser type, date and time of visit, etc.      What we use your personal data for   We use your personal data to:   respond to your specific request that you make, for example request a demonstration, whitepapers, newsletters, or other information.   provide customer support and process, evaluate and respond to requests and inquiries;   conduct and facilitate customer satisfaction surveys;   conduct marketing and sales activities (including generating leads, pursuing marketing prospects, performing market research, determining and managing the effectiveness of our advertising and marketing campaigns and managing our brand);   send you marketing communications (such as alerts, promotional materials, newsletters, etc.);   perform data analytics (such as market research, trend analysis, financial analysis, and customer segmentation).    We only collect the personal data from you that we need for the above purposes. We may also anonymise your personal data, so it no longer identifies you and use it for various purposes, including the improvement of our services and testing our IT systems.    The legal basis on which we use your personal data   We use your personal data for the purposes described in this notice based on one of the following legal bases, as applicable:   Legitimate interest as by using our website it is understood that there is potential for you to be a potential customer, contractor, employee, or supplier.      Copyright Violations   We reserve the right to restrict access to or remove material that we believe in good faith to be copyrighted material and/or illegally copied and/or distributed, and restrict and discontinue service to offenders. If you believe that material or content residing on or accessible through the Services infringes your copyright (or the copyright of someone on behalf of which you are authorized to act), please send a notice of copyright infringement containing the following information to [email protected]:   (a) A physical or electronic signature of a person authorized to act on behalf of the owner of the copyright that has been allegedly infringed;   (b) Identification of works or materials being infringed;      Suppliers or potential suppliers    The personal data we collect about you and how we use it   We collect and use personal data that concerns you in connection with the agreements with our suppliers. We may collect the following categories of personal data:   Identification data and business contact information, you share with us such as first name, last name, job/position/title, nationality, business email address, business address, telephone number, mobile telephone number.   Additional information you provide to us in the course of our business relations such as data concerning the fulfilment of our contractual obligations and pre-contractual measures including correspondence data, offers, tenders, resume/CV, conditions, contract and order data, invoices, payments, business partner history, records relating to queries/questions/complaints/orders.   Electronic identification data and information collected by the communications systems, IT applications and website browser (where supplier has access or is affected by such systems or applications and in accordance with the applicable law) such as information technology usage (system access, IT and internet usage), device identifier (mobile device ID, PC ID), registration and login credentials, IP address, login data and log files, Analytics ID, time and URL, searches, website registration and cookie data, sound recordings (e.g. voice mail/phone recordings, Skype recordings).      What we use your personal data for   We may use your personal data as described above for the following purposes:   supplier and service provider management throughout the supply chain including contact interaction including tendering, engagement, processing orders, process and fulfilment of purchases, administration and management of suppliers, vendors, contractors, advisers and other professional experts;   paying debts, supplier invoice and payment management, purchasing of direct and indirect services;   reporting and analytics including market intelligence and development and improvement of services or products through assessment and analysis of the information;   management of process quality;   references on documents, such as tenders, purchase orders, invoices, reports;   contract lifecycle management;   payment collection and insolvency processes;   training suppliers;   finance and shared accounting services, providing record to report and purchase to pay services;   reorganisation, acquisition and sale of activities, business units and companies;   monitoring and auditing compliance with API3’s policies, contractual obligations and legal requirements;   carrying out audits, reviews and regulatory checks to meet obligations to regulators;   governance, risk and compliance, including due diligence and anti-money laundering obligations, customs and global trade compliance and sanctioned party list screening, security, including prevention, detection of crime and fraud;   maintain and protect the security of products, facilities, services, systems, networks, computers and information, preventing and detecting security threats, and fraud or other criminal or malicious activities; and   manage IT resources, including infrastructure management including data back-up, information systems’ support and service operations for application management, end user support, testing, maintenance, security (incident response, risk, vulnerability, breach response), user accounts management, software licenses assignment, security and performance testing and business continuity.    We collect only the personal data from you that we need for the purposes described above. For statistical purposes, improvement of our services and testing of our IT systems we use as much as reasonably possible anonymised data. This means that these data can no longer (in)directly identify you or single you out as an individual.    What happens if you do not provide us with the information we had asked you for or if you ask us to stop processing your information?   Where it concerns processing operations related to the agreements with our suppliers (as described above), API3 will not be able to adequately establish, conduct or terminate a business relationship with you or your company and generally perform the purposes described above without certain personal data. Although we cannot obligate you to share your personal data with us, please note that this then may have consequences which could affect the business relationship in a negative manner, such as not being able to take requested pre-contractual measures to enter into a contract with you or to establish and continue the business relationship you have asked for.    The legal basis on which we use your personal data   We use your personal data for the purposes described in this notice based on one of the following legal bases, as applicable:  We may process your personal data for the fulfilment of contractual obligations resulting from contracts with you or your company, or as part of pre-contractual measures we take;  In some cases, we rely on our legitimate interests to process your personal data insofar as this is not overridden by your own privacy interests. Such interests may include:   conduct, management, development and furtherance of our business in the broadest sense possible including supply of products and services, performance of agreements and order management with suppliers, process and fulfilment of purchases, process quality management and improvement of products or services, analytics and market intelligence, reduction of default risks in our procurement processes and reorganization, acquisition and sale of activities, business divisions and companies;   monitor, investigate and ensure compliance with legal, regulatory, standard and API3 internal requirements and policies;   prevent fraud and criminal activity including investigations of such activity, misuse of API3 assets, products and services, and as strictly necessary and proportionate for ensuring network and information security; and   transmitting personal data within the API3 group for internal administrative purposes as necessary for example to provide centralised services.    In some cases, we process your personal data on the basis of legal obligations and statutory requirements, for example, on the basis of tax or reporting obligations, cooperation obligations with authorities, statutory retention periods or the disclosure of personal data within the scope of official or judicial measures may be required for the purposes of taking evidence, prosecution or enforcement of civil law claims.  Regarding personal data concerning criminal convictions and offences, we will only process such data where such processing is permitted by applicable (local) law.    Customers/clients or potential customers/clients    The personal data we collect about you and how we use it   We collect the following categories of personal data:   The business contact information you share with us: name, title, job title, email address, business address, telephone number, mobile telephone number   Additional information you provide to us in the course of our business relations, such as: interests in API3 services or products, marketing preferences, registration information provided at events, fairs, contract or order data, invoices, payments, business partner history, etc.   Information your browser makes available when you visit the API3 website: IP address, the source of your site visit, time spent on the website or a particular page, links clicked, comments shared, browser type, date and time of visit, etc.   To the extent necessary to fulfil our obligations, data obtained from publicly accessible sources or which are legitimately transmitted by other third parties (e.g. a credit agency): commercial register data, association register data, creditworthiness data.      What we use your personal data for   We use your personal data to:   process and fulfil orders and keep you informed about the status of your or your company’s order;   provide and administer our products and services;   provide customer support and process, evaluate and respond to requests and inquiries;   conduct and facilitate customer satisfaction surveys;   conduct marketing and sales activities (including generating leads, pursuing marketing prospects, performing market research, determining and managing the effectiveness of our advertising and marketing campaigns and managing our brand);   send you marketing communications (such as alerts, promotional materials, newsletters, etc.);   perform data analytics (such as market research, trend analysis, financial analysis, and customer segmentation).    We only collect the personal data from you that we need for the above purposes. We may also anonymise your personal data, so it no longer identifies you and use it for various purposes, including the improvement of our services and testing our IT systems.    What happens if you do not provide us with the information we had asked you for, or if you ask us to stop processing your information?   Certain personal data is necessary to establish, conduct or terminate a business relationship with you. We need you to provide us with the personal data required for the fulfilment of contractual obligations or which we are legally obliged to collect. Without such personal data, we will not be able to establish, execute or terminate a contract with you. Also, we will be unable to take requested pre-contractual measures to enter a contract with you or to establish and continue the business relationship you have asked for.    The legal basis on which we use your personal data   We use your personal data for the purposes described in this notice based on one of the following legal bases, as applicable:   We may process your personal data for the fulfilment of contractual obligations resulting from contracts with you or your company, or as part of pre-contractual measures we have been asked to take;   We may process your personal data on the basis of statutory requirements, for example, on the basis of tax or reporting obligations, cooperation obligations with authorities or statutory retention periods;   We will ask your consent for the activities described in this privacy notice when required by applicable law, for example when we process your data for marketing purposes where we don’t have an existing business relationship with you or your company; or   We will rely on our legitimate interests to process your personal data within the scope of the business relationship with you or your company. Our legitimate interests to collect and use the personal data for this purpose are management and furtherance of our business. You may obtain a copy of our assessment of why we may process your personal data for these interests by submitting a request at [email protected]              For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/privacy-and-cookies ---
+
+ API3 | Privacy and Cookies       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate    Privacy and Cookies   Last updated: February 24, 2021.       This website uses cookies. We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services  Cookies are small text files that can be used by websites to make a user's experience more efficient.  The law states that we can store cookies on your device if they are strictly necessary for the operation of this site. For all other types of cookies we need your permission.  This site uses different types of cookies. Some cookies are placed by third party services that appear on our pages.  You can at any time change or withdraw your consent from the Cookie Declaration on our website.  Learn more about who we are, how you can contact us and how we process personal data in our Privacy Policy.  Please state your consent ID and date when you contact us regarding your consent.  Your consent applies to the following domains: api3.org            For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/terms-and-conditions ---
+
+ API3 | Terms & Conditions       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate    Terms & Conditions   Terms & Conditions       These terms and conditions of use, together with any additional documents, policies, and guidelines they incorporate by reference (collectively, these “Terms”), are entered into between API3 Foundation, a Cayman Islands foundation company limited by guarantee (together with all affiliates, “API3", “We”, “Us” or “Our”), and you or the organisation or other entity that You represent or with which you are affiliated (“You” or “Your”). Please read these Terms carefully as they govern Your use of our websites located at api3.org, market.api3.org, api3.eth, and all associated sites, domains, subdomains, applications, accounts, communications channels, addresses and directories (the “Sites”) and any of API3’s software, interfaces, websites, materials, marketplaces, products, applications, documentation, repositories, hackathons, events, presentations or other provided services, including but not limited to the smart contracts substantially comprising the API3 DAO (as such term is defined below), Airnode, Airkeeper, data feeds, managed data feeds, dAPIs, Beacons, QRNG, oracle and signed data services, OEV Network, Nodary, service coverage, and any other such services provided by or through API3 (each to the extent owned or substantially controlled by API3, the “Services”) and describe Your obligations and our disclaimers and limitations of legal liability. By accessing, using, participating in, or receiving any of the Sites or Services, or otherwise acknowledging these Terms in any manner, You accept and agree to be bound by and to comply with these Terms. If You do not agree to, or are not in compliance with, these Terms, You must stop using and avoid accessing or using any Sites or Services. Further, You acknowledge that certain aspects of Our Services and the governance of API3 itself may be substantially affected by the API3 decentralised autonomous organisation smart contracts and governance protocols, as executed by indeterminate addresses staking API3 tokens in the Ethereum mainnet contract address 0x6dd655f10d4b9E242aE186D9050B68F725c76d76 (the “API3 DAO”). Certain of the Services and actions of API3 are substantially delegated to the immutable onchain governance of the API3 DAO, and may be out of API3’s control or discretion.  You must have the capacity and authority to form a legally binding contract online either on behalf of an entity or as an individual. Accordingly, You represent that, if You are agreeing to these Terms on behalf of a company or other legal entity, You have the legal authority to bind such company or other legal entity to these Terms and You are the older of 16 years old or the age of majority where You reside, You can form a legally binding contract, and have the capacity and authority to enter into and to comply with the obligations under these Terms. You represent and warrant that You are not a citizen or resident of a jurisdiction that is sanctioned or embargoed (nor are you personally sanctioned or embargoed) by the United Nations or the European Union or where Your use of the Sites or the Services would be illegal or otherwise violate any treaty, domestic or foreign law, rule, statute, regulation, or other directive, requirement or guideline, which is in force and applies to or otherwise governs, rules or regulates any person, property, activity, event or other matter, including any rule, order, judgment, directive or other requirement or guideline issued by any domestic or foreign federal, provincial or state, municipal, local or other governmental, regulatory, judicial or administrative authority having jurisdiction over API3, You, the Sites or the Services; or as otherwise duly enacted, enforceable by law, the common law or equity (“Applicable Law”).    Privacy Policy   Please refer to our privacy policy accessible at https://api3.org/privacy-policy for information about how we collect, use, share and otherwise process information about You.    Changes to these Terms   We reserve the right, in Our sole discretion, to modify these Terms from time to time. If we make changes, we will provide You with notice of such changes by posting a notice on certain of the Sites or elsewhere on our Services or updating the date at the top of these Terms. Unless we say otherwise in our notice, any modifications are effective immediately upon such notification given as in the previous sentence, and Your continued use of the Sites or our Services will confirm Your consent and acceptance of the changes and to these revised Terms in full. If You do not agree to such revised Terms, You must stop using our Services.In order to use certain features of the Services, You may be required to register for an account and provide certain information about yourself as prompted by the account registration form or service interface (the “Account”). You shall provide complete and accurate information where prompted by Us in the Sites and/or Services. You are responsible for maintaining the confidentiality of Your Account login information and are fully responsible for all activities that occur under and from Your Account. If applicable, API3 may suspend or terminate Your Account for any reason at Our sole discretion, including for any use of the Sites or Services in violation of these Terms.    Network Deployments, Payments, and Fees   Some Services offered by Us require payment with or otherwise involve the use of an underlying blockchain or other decentralised infrastructure (each, a “Network”), which may require that You pay a fee, such as (but not limited to) “gas” charges on the applicable blockchain network, for the computational resources required to perform a transaction on the particular Network (such payments and fees, “Charges”). You acknowledge and agree that API3 has no control over any Network transactions, the method of payment of any Charges, if applicable, or any actual payments of Charges or amounts thereto, if applicable. Accordingly, You must ensure that You have a sufficient balance of the applicable Network tokens stored at Your Network-compatible wallet address (“Network Address”) to complete any such transaction on the Network before initiating such transaction.  As a condition to accessing or using the Services or the Sites, You: (i) will ensure that all information that You provide on the Sites or otherwise to Us is current, complete, and accurate (ii) will only use the Services and the Sites for lawful purposes and in accordance with these Terms; (iii) will maintain the security and confidentiality of access to Your Network Address; and (iv) agree (A) that no Indemnitee (as defined below) will be responsible for any loss or damage incurred as the result of any interactions You have with other users of the Sites or Services; and (B) if there is a dispute between You and any other site or other user, no Indemnitee (as defined below) will be under any obligation to become involved.  As a condition to accessing or using the Sites or the Services, You will not: (i) violate any Applicable Law, including, without limitation, any relevant and applicable privacy and data collection laws including GDPR, any relevant and applicable gambling, illicit contracting, misrepresentation, or fraud laws, and any relevant and applicable anti-money laundering and anti-terrorist financing laws, in each case as may be amended; (ii) Export, re-export, or transfer, directly or indirectly, any API3 technology or data or data accessed through any of the Services in violation of applicable export laws or regulations or the legal owners and controllers of such data; (iii) Infringe any intellectual property or other third-party right, or commit a tort or violation of criminal or contract law while using or involving any Site or the Service; (iv) Misrepresent the reliability or veracity of any content on the Sites or through the Services; (v) Use the Sites or Services in any manner that could interfere with, disrupt, negatively affect, or inhibit other users from their quiet enjoyment of the Sites or Services, or that could impair, disable, overwhelm, or otherwise alter the functioning of the Sites or Services in any manner; (vi) Attempt to circumvent any content filtering techniques or security or compliance measures that API3 employs on the Sites or the Services, or attempt to access any service or area of the Sites or the Services that You are not authorised to access; (vii) Use any scraper or other automated means or interface not provided by us to access the Sites or Services or to extract data; (viii) Introduce any virus, malware, Trojan horse, worm, backdoor, exploit, or other harmful software into the Sites or the Services; (ix) Post content or communications on the Sites or Services that are, in Our sole discretion, fraudulent, deceptive, libelous, defamatory, profane, obscene, pornographic, sexually explicit, lewd, vulgar, suggestive, harassing, hateful, threatening, offensive, discriminatory, bigoted, abusive, inflammatory, or otherwise objectionable; (x) Post content or communications on the Sites or Services containing unsolicited promotions, campaigns, or commercial messages or any user content designed to deceive the user of the Service; or (xi) Induce any other user or third party to engage in any of the activities prohibited under these Terms or otherwise violate these Terms.  You represent and warrant that You know, understand, and accept the risks associated with Your use of the Sites and Services, using smart contracts and other blockchain and distributed ledger technologies, APIs, and public/private key technologies in general, Your Network Address and the Network, including the risks identified elsewhere in these Terms.    API3 Rights   Excluding any third-party software, data, or other products or services that the Sites or the Services incorporates or uses, as between You and API3, API3 owns the Sites and the Services, and hereby grants You a limited, revocable, non-transferable, license to access and use those portions of the Sites and the Services that are proprietary to API3 in accordance with their intended uses and in accordance with any other applicable licensing terms for the Sites and the Services in these Terms (collectively, the “API3 License”). You acknowledge that the Sites and/or the Services may use, incorporate or link to certain open-source or third-party owned components and that Your use of the Sites and/or Services is subject to, and You will comply with any, applicable licenses and terms and conditions (collectively, “Terms and Licenses”). Notwithstanding the foregoing, You may not resell, share, distribute or otherwise permit any third party to use the Sites or the Services or otherwise use the Sites or the Services in a manner that violates the API3 License or any other Terms and Licenses.  API3 may direct to, include in Services, or provide links to content of third parties (“Third Party Content”). API3 makes no representation regarding, and accepts no responsibility for, Third Party Content or for the accuracy, quality, ownership or reliability thereof. Your use of the Third Party Content is at Your own risk, and You should review the applicable terms and policies, including privacy and data gathering practices, of the Third Party Content and any website to which You navigate from the Sites.  Any of API3's product or Service names, logos, and other marks used in the Sites or as a part of the Services, including API3's name and logo and the Airnode name are intellectual property owned by API3. You may use, subject to Our sole discretion, API3’s name and logo to refer to API3's products or services, provided that it does not in any way suggest or imply sponsorship or approval by API3. You may also indicate the relationship of Your products and services to API3’s products or services, subject to our discretion. You may not use API3’s name and logo in a manner that may cause misrepresentations or confusion. Except as provided in the foregoing, You may not copy, imitate or use Our Intellectual Property without Our (or the applicable licensor’s) prior written consent. API3 will be free to use, reproduce, license, and otherwise distribute any suggestions, comments, or other feedback provided by You to API3 with respect to the Sites or Services (“Feedback”) provided to it as it sees fit, entirely without obligation or restriction of any kind, on account of intellectual property rights or otherwise.  You hereby grant to API3 a royalty-free, fully paid-up, sublicense-able, transferable, perpetual, irrevocable, non-exclusive, worldwide license to use, copy, modify, create derivative works of, display, perform, publish and distribute, in any form, medium or manner, any content that is available to other users via the Sites as a result of Your use of the Sites (collectively, “Your Content”) through Your use of the Services or the Sites, excluding for purposes of this sentence Your Content requested or returned through designated interfaces of Services or through Services themselves. You represent and warrant that You own Your Content or have the right to grant the rights and licenses in these Terms applicable to your use of the Sites, Services and Your Content, and Your Content and Our use of Your Content does not and will not violate, misappropriate or infringe on any third party’s rights nor Applicable Law.    Suspension and Termination   We may, at Our sole discretion, with or without prior notice to You (unless otherwise expressly agreed in writing), modify, suspend or disable (to the extent possible), temporarily or permanently, the Services offered by API3, in whole or in part, for any reason whatsoever, including, but not limited to, as a result of a security incident to the extent API3 is able to do so. We will not be liable for any losses suffered by You resulting from any modification to any Services or from any suspension or termination, for any reason, of Your access to all or any portion of the Sites or the Services. The Terms shall survive any termination of Your access to the Sites or the Services, in addition to any other provision which by law or by its nature should survive.    Indemnification   You shall defend, indemnify, and hold harmless API3, our affiliates, and our and our affiliates’ respective guarantors, supervisors, shareholders, members, directors, officers, employees, contractors, representatives, suppliers, licensors, attorneys, advisors and agents (collectively, “Indemnitees”) from any claim, demand, lawsuit, action, proceeding, investigation, liability, damage, loss, costs or expenses, including without limitation reasonable attorneys’ fees, arising out of or relating to Your use of, or conduct in connection with, the Sites, the Services, Network assets associated with Your Network Address, any other digital assets, Your Content; Your violation of these Terms; Your violation of any Applicable Law or regulations; Your gross negligence or intentional misconduct; or Your infringement or misappropriation of the rights of any other person or entity. If You are obligated to indemnify any Indemnitee, API3 (or, at its discretion, the applicable Indemnitee) will have the right, in its sole discretion, to control any legal action or proceeding arising therefrom.    Notices and Communications   You consent to receive all communications, invoices, notices, and disclosures electronically (collectively, our “Communications”) that we provide in connection with these Terms or any Services. You agree that we may provide our Communications to You by posting them on any of the Sites or through the Services or by emailing them to You at the email address You provide in connection with using the Services. You may also contact us to request additional electronic copies of our Communications by filing a support request at [email protected].    Disclaimer and Disclosures   API3 does not operate an exchange platform of any kind nor does API3 offer trade execution, custody, money transmission, or clearing services with respect to assets of any kind, and therefore has no oversight, involvement, or control with respect to Your transactions pursuant to the Sites or Services or any Network. You are responsible for complying with all Applicable Law and regulations applicable to Your transactions and for the secure treatment of Your property. API3 does not own or control the underlying software protocols that are used in connection with the Sites and Services, including but not limited to any Network, Network tokens or API3 Tokens, or any other tokens or third party software applicable to the Services. API3 is not responsible for operation of the underlying protocols or Networks, and API3 makes no guarantee of their functionality, security, or availability.  To the maximum extent permitted under Applicable Law, the Sites and the Services (and any of their content or functionality) provided by or on behalf of Us are provided on an “AS IS” basis, and We expressly disclaim, and You hereby waive, any representations, conditions or warranties of any kind, whether express or implied, legal, statutory or otherwise, or arising from statute, otherwise in law, course of dealing, or usage of trade, including, without limitation, the implied or legal warranties and conditions of merchantability, quality or fitness for a particular purpose, title, security, availability, reliability, accuracy, quiet enjoyment and non-infringement of third party rights. Without limiting the foregoing, We do not represent or warrant that the Sites or the Services (including any related data) will be uninterrupted, available at any particular time or error-free. We do not warrant that errors in the Sites or the Service are correctable or will be corrected beyond good faith measures by Us, to the extent possible and practical.  You acknowledge that Your data on the Sites or through the Services may become permanently lost or corrupted or temporarily unavailable due to a variety of causes, and agree that, to the maximum extent permitted under Applicable Law, we will not be liable for any loss or damage caused by denial-of-service attacks, 51% attacks, software or data failures or manipulation, lost private or public keys, viruses or other technologically harmful materials (including those which may infect Your equipment or software), protocol changes by third party providers, outages, force majeure events or other disasters, scheduled or unscheduled maintenance, or other causes either within or outside our control.    Limitation of Damages and Liability   API3, together with any Indemnitee, shall not in any event be liable for any incidental, indirect, special, punitive, exemplary, consequential or similar damages or liabilities whatsoever (including, without limitation, damages for loss of data, information, revenue or other business or financial benefit) arising out of or in connection with any of the Sites and/or Services (and any of their content and functionality), any execution or settlement of a transaction, any performance or non-performance of the Services, Your Network assets, other digital assets or any other product, service or other item provided by or on behalf of an Indemnitee, whether under contract, tort (including negligence), civil liability, statute, strict liability, breach of warranties, or under any other theory of liability, and whether or not any Indemnitee has been advised of, knew of or should have known of the possibility of such damages and notwithstanding any failure of the essential purpose of these Terms or any limited remedy nor is API3 in any way responsible for the execution or settlement of transactions between users of the Services. Absent a written mutually signed agreement with API3 or any Indemnitee, You do not have privity of contract with API3 or any applicable Indemnitee for Your particular use of a publicly accessible Service, including but not limited to any of the Services which are not substantially controlled by API3 (including but not limited to smart contracts deployed on a Network, algorithmic or automatic or functionally autonomous software, or any other software deployed upon, hosted upon, or substantially dependent upon an unaffiliated person or Network or other decentralised software).  In no event will the Indemnitees' aggregate liability arising out of or in connection with the Sites and the Services (and any of their content and functionality), any performance or non-performance of the Services, Your Network assets, other digital assets or any other product, service or other item provided by or on behalf of an Indemnitee, whether under contract, tort (including negligence), civil liability, statute, strict liability or other theory of liability exceed the amount of the fees paid by You to us under these Terms in the one year period immediately preceding the event giving rise to the claim for liability.    Waiver   To the extent permitted by Applicable Law, in consideration for being allowed to use any of the Sites and the Services, You hereby release and forever discharge API3 and all Indemnitees from, and hereby waive and relinquish, each and every past, present and future dispute, claim, controversy, demand, right, obligation, liability, action and cause of action of every kind and nature (including economic loss, personal injuries, death, and property damage), that has arisen or arises directly or indirectly out of, or that relates directly or indirectly to, any of the Sites and/or the Services (including any interactions with, or act or omission of, other Sites, Services, or API3 software users or any third-party services).    Arbitration   These terms require You to arbitrate certain disputes and claims with API3 and limit the manner in which You can seek relief from us, unless You opt out of arbitration by following the instructions set forth below. In addition, arbitration precludes You from suing in court or having a jury trial. You and API3 agree that any dispute arising out of or related to these Terms or our Services is personal to You and API3 and that any dispute will be resolved solely through individual action, and will not be brought as a class arbitration, class action or any other type of representative proceeding.  You and API3 waive Your rights to a jury trial and to have any dispute arising out of or related to these Terms or our Services resolved in court. For any dispute or claim that You have against API3, You agree to first contact API3 and attempt to resolve the claim informally by sending a written notice of Your claim (“Notice”) to API3 by email at [email protected] with copy to [email protected]. The Notice must include Your name, email address, and telephone number, describe the nature and basis of the claim and set forth the specific relief sought. Our notice to You will be similar in form to that described above. If You and API3 cannot reach an agreement to resolve the claim within thirty (30) days after such Notice is received, then either party may submit the dispute to binding arbitration administered by JAMS pursuant to its Comprehensive Arbitration Rules and Procedures and in accordance with the Expedited Procedures in those Rules, as available on the JAMS website and hereby incorporated by reference. All disputes submitted to JAMS will be resolved through confidential, binding arbitration before one arbitrator. You acknowledge and agree that You have read and understand the JAMS Rules or waive Your opportunity to read the JAMS Rules and waive any claim that the JAMS Rules are unfair or should not apply for any reason.  The arbitrator, API3, and You will maintain the confidentiality of any arbitration proceedings, judgments and awards, including, but not limited to, all information gathered, prepared and presented in relation to the disputes. The arbitrator will have the authority to make appropriate rulings to safeguard confidentiality, unless the law provides to the contrary. The duty of confidentiality does not apply to the extent that disclosure is necessary to prepare for or conduct the arbitration hearing on the merits, in connection with a court application for a preliminary remedy or in connection with a judicial challenge to an arbitration award or its enforcement, or to the extent that disclosure is otherwise required by law or judicial decision. You and API3 agree that for any arbitration You initiate, You will pay the filing fee and You and API3 will evenly split the remaining JAMS fees and costs. Each party will otherwise be responsible for their own costs with respect to dispute resolution.  Any claim arising out of or related to these Terms or our Services must be filed within one year after the nexus for such claim arose; otherwise, the claim is permanently barred, which means that You or API3, as applicable, will not have the right to assert the claim. You have the right to opt out of binding arbitration within 30 days of the date You first accepted these Terms by emailing us at [email protected].    Severability and Governing Law   If any portion of these Terms is found to be unenforceable or unlawful for any reason, the unenforceable or unlawful provision will be severed from these Terms, and the severance of the unenforceable or unlawful provision will have no impact whatsoever on the remainder or the parties’ ability to compel arbitration of any remaining claims on an individual basis, and to the extent that any claims must therefore proceed on a class, collective, consolidated, or representative basis, such claims must be litigated in a civil court of competent jurisdiction and not in arbitration, and the parties agree that litigation of those claims will be stayed pending the outcome of any individual claims in arbitration.  The interpretation and enforcement of these Terms, and any dispute related to these Terms, the Sites or the Services, will be governed by and construed and enforced in accordance with the laws of the Cayman Islands, as applicable, without regard to conflict of law rules or principles. You agree that we may initiate a proceeding related to the enforcement or validity of our intellectual property rights in any court having jurisdiction. With respect to any other proceeding that is not subject to arbitration under these Terms, the courts located in the Cayman Islands will have exclusive jurisdiction. You waive any objection to venue in such courts.    Miscellaneous   Any right or remedy of API3 set forth in these Terms is in addition to any other right or remedy whether described in these Terms, under Applicable Law, at law or in equity. Our failure or delay in exercising any right, power, or privilege under these Terms will not operate as a waiver thereof. The illegality or unenforceability of any of these Terms will not affect the validity or enforceability of any other of these Terms, all of which will remain in full force and effect. We will have no responsibility or liability for any failure or delay in performance of the Sites or any of the Services, or any loss or damage that You may incur, due to any circumstance or event beyond our control, including without limitation any natural disaster or other act of God, fire, pandemic or infectious disease, war, insurrection, riot, accident, governmental condition or prohibition, communications failure, power failure, or equipment or software malfunction. You may not assign or transfer any right to use any of the Sites or the Services, or any of Your rights or obligations under these Terms, without our express prior written consent, including by operation of law or in connection with any change of control. We may assign or transfer any of our rights or obligations under these Terms, in whole or in part, without notice or obtaining Your consent or approval. Each Service which is factually and legally controlled by API3 or its agent is domiciled at API3’s registered address in the Cayman Islands, including but not limited to those Services deployed or substantially reliant upon a Network. Headings of sections are for convenience only and will not be used to limit or construe such sections. These Terms contain the entire agreement and supersede all prior and contemporaneous understandings between You and API3 regarding the Sites and the Services. If there is a conflict between these Terms and any other agreement You may have with API3, these Terms will control unless the other agreement specifically identifies these Terms and declares that the other agreement supersedes these Terms.    Contact Us   API3 Foundation, a Cayman Islands foundation company limited by guarantee  Suite 102, Cannon Place, P.O. Box 712, North Sound Rd., George Town, Grand Cayman, KY1-9006  Email: [email protected]  © 2024 API3 Foundation  All rights reserved. All trademarks, logos and service marks displayed on the Sites and Services are Our property or the property of other third parties. The term “API3” and the related logo, and the term “Airnode” are each Our trademarked property.  If You have any questions or concerns regarding these Terms, please send Us a detailed message to [email protected], and We will address Your concerns as soon as we can and to the best of our ability.            For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Celitech Bee API ---
+
+ API3 | Find Web3 APIs | Celitech Bee API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Celitech Bee API     Celitech Bee API  
+Celitech wireless eSIM API enables your travel-related business to offer cellular data eSIMs and better engage with customers anywhere in the world. The proprietary eSIM API provides wireless data service that can be shared digitally (e.g. using QR codes) and programmed by location, time, size, speed, etc.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Crypto API ---
+
+ API3 | Find Web3 APIs | Crypto API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Crypto API     Crypto API  
+OptionRoom API allows users to create and participate in event derivatives that are pegged to real world outcomes by governance consensus.
+
+    + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Quadency Unified API ---
+
+ API3 | Find Web3 APIs | Quadency Unified API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Quadency Unified API     Quadency Unified API  
+Get market data such as live and historical prices, trades and order books, fetch your connected accounts and related information, get latest balances, open and closed orders, and trade history, send/cancel orders, and more. 
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/PWP Leeway ---
+
+ API3 | Find Web3 APIs | PWP Leeway
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     PWP Leeway     PWP Leeway  
+PWP Leeway API provides access to comprehensive data from more than 50 exchanges worldwide. We offer fundamental data, i.e. annual and quarterly balance sheet data with up to 20 years of history, closing prices with up to 35 years of history, interval price data, ESG data and much more.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Paradigm API ---
+
+ API3 | Find Web3 APIs | Paradigm API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Paradigm API     Paradigm API  
+Paradigm is a multidimensional crypto data API. Our unified platform provides single endpoint access to datasets, curated content and visual analytics all at the same time. We harmonize the data so you don’t have to. Search, test, download and build for free.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Catallact API ---
+
+ API3 | Find Web3 APIs | Catallact API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Catallact API     Catallact API  
+The Catallact API delivers On-chain analytics, Exchange data, Derivative metrics, DeFi tracking, and Original research
+
+    + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Bird API ---
+
+ API3 | Find Web3 APIs | Bird API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Bird API     Bird API  
+Bird.money offers plug and play analytics products for web 3.0 platforms.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Asteria API ---
+
+ API3 | Find Web3 APIs | Asteria API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Asteria API     Asteria API  
+The Asteria Option Pricing API enables investors to get option pricing and quantity quotations and execute in real time 
+without slippages.
+
+    + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Melodie API ---
+
+ API3 | Find Web3 APIs | Melodie API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Melodie API     Melodie API  
+Melodie provides end users with music search, licensing, and more with a wide selection of high-quality, pre-cleared music tracks.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Address Verification API ---
+
+ API3 | Find Web3 APIs | Address Verification API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Address Verification API     Address Verification API  
+Byteplant's postal Address Verification service allows you to validate and correct postal addresses from 240 countries world-wide. 
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/INFRD Insurance API ---
+
+ API3 | Find Web3 APIs | INFRD Insurance API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     INFRD Insurance API     INFRD Insurance API  
+Artivatic’s AI- Native SaaS Solutions for insurance & health services as modular building blocks powered by best-in-class API gateway helps in driving innovation & collaboration with intuitive workflows, seamless integration, data driven decisions, individual level risk assessment, new age product offerings, dynamic pricing, automation, smart underwriting, smart claims processing, enhanced customer experience, persistence & collections, distributions with AI, ML & Data.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Identity Authentication API ---
+
+ API3 | Find Web3 APIs | Identity Authentication API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Identity Authentication API     Identity Authentication API  
+Use the Authenticating APIs, mobile SDK or the hosted, embeddable UI for worldwide identity authentication, KYC & AML compliance.
+
+Instantly authenticate 6,000+ government-issued IDs and passports from 200 countries in 38 languages using instant forensic fraud & forgery analysis and data extraction through computer vision with facial recognition, liveness detection and a 24/7/365 fallback method of AI assisted expert manual review for a definitive pass or fail in under 2 minutes when an ID or passport is too damaged, dirty, worn or torn to be read by OCR.
+
+Authoritative database level identity verification available in 33 countries.
+
+Instantly perform 60+ anti-money laundering and global watch list checks for free.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/The Authoritas SERP API ---
+
+ API3 | Find Web3 APIs | The Authoritas SERP API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     The Authoritas SERP API     The Authoritas SERP API  
+The Authoritas Keyword Ranking API allows you to make multiple simultaneous keyword requests to any major search engine worldwide. 
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/Benzinga Market News API ---
+
+ API3 | Find Web3 APIs | Benzinga Market News API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     Benzinga Market News API     Benzinga Market News API  
+The Benzinga API delivers actionable Stock & Crypto data news to users.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/web3-apis/SMS Gateway API ---
+
+ API3 | Find Web3 APIs | SMS Gateway API
+       For DevelopersFor data providersDAOResourcesParticipateFor DevelopersFor data providersDAOResourcesParticipate     SMS Gateway API     SMS Gateway API  
+BulkSMS API allows you to easily SMS-enable your website, application, or customer relationship management platform. Our API supports Unicode and long messages, and allows for multiple web hooks to create and customise any workflow.
+
+    + API Documentation   + Contact API Provider   Request Access          For developers  Data feeds  QRNG  Provider Directory  OEV Network   FOR DATA PROVIDERS  Airnode  API3 Alliance   DAO  DAO Overview  DAO Dashboard  DAO Tracker  DAO Docs  DAO Forum   RESOURCES  Docs  Articles  Whitepapers  Media Kit   PARTICIPATE  Github  Open Positions  Contact          © 2024 API3 Foundation    Privacy Policy  Privacy and Cookies  Terms & Conditions                       
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#f29a979e82b293829bc1dc9d8095 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c7662ee5ecf2b5b
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#5d3e3233293c3e291d3c2d346e73322f3a ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c7662f52c6608dc
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#e98a86879d888a9da9889980dac7869b8e ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c7662fd5d9fcbaf
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#94f7fbfae0f5f7e0d4f5e4fda7bafbe6f3 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c7663044c9014e4
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#73101c1d071210073312031a405d1c0114 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c76630b2b197c91
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#92f1fdfce6f3f1e6d2f3e2fba1bcfde0f5 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c766311ff0f2ae4
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#2c5f595c5c435e586c4d5c451f024f4341 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c766318e84b5371
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#98fbf7f6ecf9fbecd8f9e8f1abb6f7eaff ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c76631fd845db7a
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#56353938223735221637263f6578392431 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c766326be2a7c85
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#9ffcf0f1ebfefcebdffeeff6acb1f0edf8 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c76632d8ce50925
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c7663347b317c3e
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#60030f0e1401031420011009534e0f1207 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c76633b59407c9d
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#beddd1d0cadfddcafedfced78d90d1ccd9 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c76634239417bbc
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
+
+
+--- URL: https://api3.org/cdn-cgi/l/email-protection#5f2b351f3d3a31253631383e713c3032 ---
+
+
+
+
+
+  
+
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+Email Protection
+You are unable to access this email address api3.org
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+If you have a website and are interested in protecting it in a similar way, you can sign up for Cloudflare.
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 8c7663491ea52a88
+•
+
+      Your IP:
+      Click to reveal
+68.6.101.117
+•
+
+Performance & security by Cloudflare
+
+
+
+
+
+
+
+
